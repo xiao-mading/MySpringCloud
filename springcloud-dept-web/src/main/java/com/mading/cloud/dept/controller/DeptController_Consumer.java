@@ -11,15 +11,18 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 /**
+ * 基于RestTemplate  + Ribbon
  * 调用服务：http://localhost/consumer/dept/list
  */
 @RestController
 public class DeptController_Consumer {
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-DEPT";
 
     @Autowired
     private RestTemplate restTemplate;
+
 
     @RequestMapping(value = "/consumer/dept/add")
     public boolean add(Dept dept){
@@ -41,6 +44,15 @@ public class DeptController_Consumer {
         List<Dept> depts = restTemplate.getForObject(REST_URL_PREFIX + "/dept/list", List.class);
         return depts;
     }
+
+
+    //测试@EnableDiscoveryClient,消费端可以调用服务发现
+    @RequestMapping(value="/consumer/dept/discovery")
+    public Object discovery()
+    {
+        return restTemplate.getForObject(REST_URL_PREFIX+"/dept/discovery", Object.class);
+    }
+
 
 
 }

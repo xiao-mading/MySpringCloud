@@ -6,6 +6,8 @@
 dept-service-port : 8001
 dept-web-port : 80
 
+Eureka-port：7001
+
 
 ?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
 

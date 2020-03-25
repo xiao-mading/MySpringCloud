@@ -10,6 +10,13 @@
         <option value="$PROJECT_DIR$/springcloud-api/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-dept-service/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-dept-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka02/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka03/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-dept-service-02/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-dept-service-03/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-dept-web-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-dept-service-hystrix/pom.xml" />
       </list>
     </option>
   </component>
@@ -30,4 +37,5 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

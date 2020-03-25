@@ -29,7 +29,7 @@ CREATE TABLE `dept` (
 -- ----------------------------
 -- Records of dept
 -- ----------------------------
-INSERT INTO `dept` VALUES ('1', '开发部', 'study01');
-INSERT INTO `dept` VALUES ('2', '人事部', 'study01');
-INSERT INTO `dept` VALUES ('4', '销售部', 'study01');
-INSERT INTO `dept` VALUES ('5', '网络部', 'study01');
+INSERT INTO `dept`(dept_name,db_source) VALUES ('开发部', DATABASE());
+INSERT INTO `dept`(dept_name,db_source) VALUES ('人事部', DATABASE());
+INSERT INTO `dept`(dept_name,db_source) VALUES ('销售部', DATABASE());
+INSERT INTO `dept`(dept_name,db_source) VALUES ('网络部', DATABASE());

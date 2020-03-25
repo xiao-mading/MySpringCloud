@@ -5,7 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/MySpringCloud.iml" filepath="$PROJECT_DIR$/.idea/MySpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-dept-service/springcloud-dept-service.iml" filepath="$PROJECT_DIR$/springcloud-dept-service/springcloud-dept-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dept-service-02/springcloud-dept-service-02.iml" filepath="$PROJECT_DIR$/springcloud-dept-service-02/springcloud-dept-service-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dept-service-03/springcloud-dept-service-03.iml" filepath="$PROJECT_DIR$/springcloud-dept-service-03/springcloud-dept-service-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dept-service-hystrix/springcloud-dept-service-hystrix.iml" filepath="$PROJECT_DIR$/springcloud-dept-service-hystrix/springcloud-dept-service-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-dept-web/springcloud-dept-web.iml" filepath="$PROJECT_DIR$/springcloud-dept-web/springcloud-dept-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dept-web-feign/springcloud-dept-web-feign.iml" filepath="$PROJECT_DIR$/springcloud-dept-web-feign/springcloud-dept-web-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka02/springcloud-eureka02.iml" filepath="$PROJECT_DIR$/springcloud-eureka02/springcloud-eureka02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka03/springcloud-eureka03.iml" filepath="$PROJECT_DIR$/springcloud-eureka03/springcloud-eureka03.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" />
     </modules>
   </component>

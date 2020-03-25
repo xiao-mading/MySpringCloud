@@ -2,27 +2,47 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-api" />
         <module name="springcloud-dept-service" />
+        <module name="springcloud-dept-service-02" />
+        <module name="springcloud-dept-service-03" />
+        <module name="springcloud-dept-service-hystrix" />
         <module name="springcloud-dept-web" />
-        <module name="springcloud-parent" />
+        <module name="springcloud-dept-web-feign" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-eureka02" />
+        <module name="springcloud-eureka03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud-api" target="1.8" />
       <module name="springcloud-dept-service" target="1.8" />
+      <module name="springcloud-dept-service-02" target="1.8" />
+      <module name="springcloud-dept-service-03" target="1.8" />
+      <module name="springcloud-dept-service-hystrix" target="1.8" />
       <module name="springcloud-dept-web" target="1.8" />
+      <module name="springcloud-dept-web-feign" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-eureka02" target="1.8" />
+      <module name="springcloud-eureka03" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud-dept-service" options="" />
+      <module name="springcloud-dept-service-02" options="" />
+      <module name="springcloud-dept-service-03" options="" />
+      <module name="springcloud-dept-service-hystrix" options="" />
       <module name="springcloud-dept-web" options="" />
+      <module name="springcloud-eureka" options="" />
+      <module name="springcloud-eureka02" options="" />
+      <module name="springcloud-eureka03" options="" />
       <module name="springcloud-parent" options="" />
     </option>
   </component>

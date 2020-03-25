@@ -6,16 +6,16 @@ server:
 
 #Mybatis配置
 mybatis:
-  mapper-locations: classpath:mapper/*.xml
+  mapper-locations: classpath:mapper/*.xml            #mapper文件路径
   type-aliases-package: com.mading.cloud.dept.Mapper  #所有Bean所在的包?不用配
   configuration:
-    map-underscore-to-camel-case: true #开启驼峰命名
-    cache-enabled: true #开启二级缓存
+    map-underscore-to-camel-case: true                #开启驼峰命名
+    cache-enabled: true                               #开启二级缓存
 
 #数据库信息配置
 spring:
   application:
-    name: springcloud-dept  #应用名称，很重要，就是对外暴露的服务名称
+    name: springcloud-dept                            #应用名称，很重要，就是对外暴露的服务名称
   datasource:
     url: jdbc:mysql://localhost:3306/springcloud_test
     username: root
@@ -24,10 +24,10 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
     #druid连接池配置
-    initialSize: 5
-    minIdle: 5
-    maxActive: 20
-    maxWait: 60000
+    initialSize: 5                          # 数据库连接池最小维持连接数
+    minIdle: 5                              # 初始化连接数
+    maxActive: 20                           # 最大连接数
+    maxWait: 60000                          # 等待连接获取的最大超时时间
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 300000
     validationQuery: SELECT 1 FROM DUAL
@@ -42,4 +42,18 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
 
+eureka:
+  client:   # 将客户端注册到Eureka服务列表中
+    service-url:
+      #defaultZone: http://localhost:7001/eureka     # Eureka服务端暴露的地址（单机）
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/     # Eureka服务端暴露的地址
+  instance:
+    instance-id: myspringcloud-dept-8001            # 取别名
+    prefer-ip-address: true                         # 访问路径显示主机的IP地址
 
+
+info:
+  app.name: springcloud-dept
+  company.name: www.mading.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

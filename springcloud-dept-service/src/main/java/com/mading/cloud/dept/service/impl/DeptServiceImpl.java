@@ -20,6 +20,7 @@ public class DeptServiceImpl implements DeptService {
     public boolean addDept(Dept dept) {
 
         boolean success = deptMapper.addDept(dept);
+        System.out.println("8001服务被调用");
         return success;
     }
 
@@ -27,12 +28,14 @@ public class DeptServiceImpl implements DeptService {
     public Dept findById(Long id) {
 
         Dept dept = deptMapper.findById(id);
+        System.out.println("8001服务被调用");
         return dept;
     }
 
     @Override
     public List<Dept> findAll() {
         List<Dept> depts = deptMapper.findAll();
+        System.out.println("8001服务被调用");
         return depts;
     }
 
