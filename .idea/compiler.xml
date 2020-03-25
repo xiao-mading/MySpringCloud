@@ -7,12 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-api" />
+        <module name="springcloud-dept-service" />
+        <module name="springcloud-dept-web" />
         <module name="springcloud-parent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud-api" target="1.8" />
+      <module name="springcloud-dept-service" target="1.8" />
+      <module name="springcloud-dept-web" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-dept-service" options="" />
+      <module name="springcloud-dept-web" options="" />
+      <module name="springcloud-parent" options="" />
+    </option>
   </component>
 </project>

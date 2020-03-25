@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MySpringCloud.iml" filepath="$PROJECT_DIR$/.idea/MySpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dept-service/springcloud-dept-service.iml" filepath="$PROJECT_DIR$/springcloud-dept-service/springcloud-dept-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-dept-web/springcloud-dept-web.iml" filepath="$PROJECT_DIR$/springcloud-dept-web/springcloud-dept-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" />
     </modules>
   </component>
