@@ -57,3 +57,10 @@ info:
   company.name: www.mading.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

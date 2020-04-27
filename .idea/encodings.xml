@@ -11,6 +11,10 @@
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka03" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-gateway-zuul9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hy-dashbord" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hystrix-dashboaed" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul9527" charset="UTF-8" />
   </component>
 </project>

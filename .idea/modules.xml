@@ -13,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka02/springcloud-eureka02.iml" filepath="$PROJECT_DIR$/springcloud-eureka02/springcloud-eureka02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka03/springcloud-eureka03.iml" filepath="$PROJECT_DIR$/springcloud-eureka03/springcloud-eureka03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-gateway-zuul9527/springcloud-gateway-zuul9527.iml" filepath="$PROJECT_DIR$/springcloud-gateway-zuul9527/springcloud-gateway-zuul9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-hy-dashbord/springcloud-hy-dashbord.iml" filepath="$PROJECT_DIR$/springcloud-hy-dashbord/springcloud-hy-dashbord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-hystrix-dashboaed/springcloud-hystrix-dashboaed.iml" filepath="$PROJECT_DIR$/springcloud-hystrix-dashboaed/springcloud-hystrix-dashboaed.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" filepath="$PROJECT_DIR$/springcloud-parent/springcloud-parent.iml" />
     </modules>
   </component>

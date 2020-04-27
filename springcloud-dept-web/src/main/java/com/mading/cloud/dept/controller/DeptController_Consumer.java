@@ -12,6 +12,9 @@ import java.util.List;
 
 /**
  * 基于RestTemplate  + Ribbon
+ *
+ * 使用了Feign则不使用这种方式了
+ *
  * 调用服务：http://localhost/consumer/dept/list
  */
 @RestController

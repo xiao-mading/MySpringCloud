@@ -3,7 +3,6 @@ server:
   port: 8001
   #context-path: /study 配置根目录
 
-
 #Mybatis配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml            #mapper文件路径

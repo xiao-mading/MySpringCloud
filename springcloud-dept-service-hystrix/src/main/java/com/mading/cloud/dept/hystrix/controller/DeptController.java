@@ -3,13 +3,14 @@ package com.mading.cloud.dept.hystrix.controller;
 
 import com.mading.cloud.bean.Dept;
 import com.mading.cloud.service.DeptService;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
+
 
 @RequestMapping("/dept")
 @RestController
@@ -39,28 +40,24 @@ public class DeptController {
         return false;
     }
 
-    @HystrixCommand(fallbackMethod = "processHystrix")
+
     @RequestMapping(value = "/get/{id}", method = RequestMethod.GET)
     public Dept getById(@PathVariable("id") Long id) {
 
-        if (id != null) {
 
+            System.out.println("开始调用dept服务，已配置熔断策略");
             Dept dept = deptService.findById(id);
 
-            if (dept == null) {
-                throw new RuntimeException("该用户不存在");
-            }
-
             return dept;
-        }
-        return null;
-    }
 
+    }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<Dept> list() {
 
+
         List<Dept> depts = deptService.findAll();
+
 
         return depts;
 
@@ -81,10 +78,9 @@ public class DeptController {
         return this.client;
     }
 
-    public Dept processHystrix(@PathVariable("id") Long id) {
 
-        return new Dept().setDeptNo(id).setDeptName("用户不存在").setDbSource("数据库中没有对应信息");
 
-    }
+
+
 
 }

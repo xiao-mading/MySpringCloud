@@ -9,5 +9,10 @@ eureka:
 
 # 没用啊
 ribbon:
-  ReadTimeout: 6000
-  ConnectTimeout: 6000
+  #ReadTimeout: 6000
+  #ConnectTimeout: 6000
+
+
+feign:
+  hystrix:
+    enabled: true

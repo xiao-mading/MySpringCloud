@@ -1,7 +1,7 @@
 package com.mading.cloud.dept.conf;
 
 import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
+import com.netflix.loadbalancer.RoundRobinRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,9 +17,9 @@ public class ConfigBean {
         return new RestTemplate();
     }
 
-    //使用随机负载均衡算法替代轮询
+    //默认轮询
     @Bean
     public IRule getIRule(){
-        return new RandomRule();
+        return new RoundRobinRule();
     }
 }

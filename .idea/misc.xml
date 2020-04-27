@@ -17,6 +17,11 @@
         <option value="$PROJECT_DIR$/springcloud-dept-service-03/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-dept-web-feign/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-dept-service-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-hystrix-dashboaed/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-hy-dashbord/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-gateway-gataway9527/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul9528/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-gateway-zuul9527/pom.xml" />
       </list>
     </option>
   </component>

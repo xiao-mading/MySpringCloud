@@ -8,7 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableCircuitBreaker  //开启熔断机制
-@EnableDiscoveryClient
+@EnableDiscoveryClient  //服务发现
 @EnableEurekaClient
 @SpringBootApplication
 @MapperScan(basePackages = "com.mading.cloud.dept.hystrix.Mapper")

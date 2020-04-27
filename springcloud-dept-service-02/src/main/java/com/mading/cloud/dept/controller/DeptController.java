@@ -44,6 +44,15 @@ public class DeptController {
         if (id != null) {
 
             Dept dept = deptService.findById(id);
+
+         /*   if (dept == null) {
+                throw new RuntimeException("该用户不存在");
+            }*/
+            if (dept == null) {
+
+                return new Dept().setDeptName("该用户不存在");
+            }
+
             return dept;
         }
         return null;

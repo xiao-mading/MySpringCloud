@@ -17,6 +17,9 @@
         <module name="springcloud-eureka" />
         <module name="springcloud-eureka02" />
         <module name="springcloud-eureka03" />
+        <module name="springcloud-gateway-zuul9527" />
+        <module name="springcloud-hy-dashbord" />
+        <module name="springcloud-hystrix-dashboaed" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,7 +33,13 @@
       <module name="springcloud-eureka" target="1.8" />
       <module name="springcloud-eureka02" target="1.8" />
       <module name="springcloud-eureka03" target="1.8" />
+      <module name="springcloud-gatewat" target="1.8" />
+      <module name="springcloud-gateway-zuul" target="1.8" />
+      <module name="springcloud-gateway-zuul9527" target="1.8" />
+      <module name="springcloud-hy-dashbord" target="1.8" />
+      <module name="springcloud-hystrix-dashboaed" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
+      <module name="springcloud-zuul9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -43,6 +52,10 @@
       <module name="springcloud-eureka" options="" />
       <module name="springcloud-eureka02" options="" />
       <module name="springcloud-eureka03" options="" />
+      <module name="springcloud-gatewat" options="-parameters" />
+      <module name="springcloud-gateway-zuul" options="" />
+      <module name="springcloud-hy-dashbord" options="" />
+      <module name="springcloud-hystrix-dashboaed" options="" />
       <module name="springcloud-parent" options="" />
     </option>
   </component>

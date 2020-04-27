@@ -44,6 +44,12 @@ public class DeptController {
         if (id != null) {
 
             Dept dept = deptService.findById(id);
+
+            if (dept == null) {
+
+                return new Dept().setDeptName("该用户不存在");
+            }
+
             return dept;
         }
         return null;
@@ -53,6 +59,7 @@ public class DeptController {
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<Dept> list() {
+
 
         List<Dept> depts = deptService.findAll();
 
